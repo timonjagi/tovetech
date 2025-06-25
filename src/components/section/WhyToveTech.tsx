@@ -68,8 +68,8 @@ const WhyToveTech = () => {
                     {reasons.map((reason, index) => (
                         <Card key={index} className="bg-slate-700/50 border-slate-600 hover:border hover:border-yellow-500/50 border-0 shadow-lg hover:shadow-xl transition-all duration-300 group">
                             <CardContent className="p-8">
-                                <div className="flex items-start space-x-4">
-                                    <div className="bg-slate-600 rounded-lg p-3 group-hover:bg-slate-900 transition-colors duration-300">
+                                <div className="flex flex-col lg:flex-row items-start space-x-4">
+                                    <div className="bg-slate-600 rounded-lg p-3 group-hover:bg-slate-900 transition-colors duration-300 mb-4 lg:mb-0">
                                         {reason.icon}
                                     </div>
                                     <div className="flex-1">
