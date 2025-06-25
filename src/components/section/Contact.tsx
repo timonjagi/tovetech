@@ -1,7 +1,6 @@
 import React from 'react';
 import {Card, CardContent} from "@/components/ui/card";
 import {Mail, MapPin, Phone} from "lucide-react";
-import {Button} from "@/components/ui/button";
 
 const Contact = () => {
     return (

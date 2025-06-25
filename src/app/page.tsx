@@ -1,8 +1,5 @@
 "use client"
 
-import {Phone, Mail, MapPin, Wrench, Zap, Building, Wind, Settings, ArrowRight} from "lucide-react";
-import { Button } from "@/components/ui/button";
-import { Card, CardContent } from "@/components/ui/card";
 import WhyToveTech from "@/components/section/WhyToveTech";
 import Header from "@/components/section/Header";
 import HeroSection from "@/components/section/HeroSection";
